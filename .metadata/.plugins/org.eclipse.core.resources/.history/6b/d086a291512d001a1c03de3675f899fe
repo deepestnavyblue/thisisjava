@@ -1,0 +1,16 @@
+package example11_threadpool;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class CallbackExample {
+
+	private ExecutorService executorService;
+	
+	public CallbackExample() {
+		executorService = Executors.newFixedThreadPool(
+				Runtime.getRuntime().availableProcessors());
+	}
+	
+	
+}

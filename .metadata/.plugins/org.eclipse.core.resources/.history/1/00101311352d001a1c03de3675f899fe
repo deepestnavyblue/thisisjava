@@ -1,0 +1,12 @@
+package example9_databox;
+
+public class ProducerThread extends Thread {
+
+	private Databox dataBox;
+	
+	public ProducerThread(DataBox data) {
+		this.dataBox = dataBox;
+	}
+	
+	
+}

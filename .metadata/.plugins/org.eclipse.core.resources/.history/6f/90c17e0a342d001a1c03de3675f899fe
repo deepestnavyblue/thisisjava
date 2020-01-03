@@ -1,0 +1,22 @@
+package example9_databox;
+
+public class Databox {
+
+	private String date;
+	
+	public synchronized String geDate() {
+		if(this.data == null) {
+			try {
+				wait();
+			}catch(Exception e) {
+				
+			}
+			
+		}
+	
+		return "";
+	}
+	
+	
+	
+}

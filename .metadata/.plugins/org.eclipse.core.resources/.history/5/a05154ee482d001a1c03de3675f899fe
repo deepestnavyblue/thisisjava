@@ -1,0 +1,10 @@
+package example11_threadpool;
+
+public class NoresultExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

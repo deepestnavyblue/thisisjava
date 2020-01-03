@@ -1,0 +1,8 @@
+package example;
+
+public class ThreadA extends Thread{
+	public ThreadA() {
+		setName("쓰레드A");
+	}
+	
+}

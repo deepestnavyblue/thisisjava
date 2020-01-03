@@ -1,0 +1,5 @@
+package example7_threadjoin;
+
+public class SumThread {
+
+}

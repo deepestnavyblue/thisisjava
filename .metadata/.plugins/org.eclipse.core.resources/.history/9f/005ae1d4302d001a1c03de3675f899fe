@@ -1,0 +1,9 @@
+package example8_cooperating;
+
+public class ThreadA {
+	private WorkObject workObject;
+	
+	public ThreadA(WorkObject workObject) {
+		this.workObject = workObject;
+	}
+}

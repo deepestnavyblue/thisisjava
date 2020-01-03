@@ -1,0 +1,8 @@
+package example6_statecontrol;
+
+public class Snippet {
+	public static void main(String[] args) {
+		example10_threadstop
+	}
+}
+

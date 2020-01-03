@@ -1,0 +1,17 @@
+package example11_threadpool;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class NoresultExample {
+
+	public static void main(String[] args) {
+		ExecutorService executorService = Executors.newFixedThreadPool(
+				Runtime.getRuntime().availableProcessors());
+		
+		System.out.println("[작업 처리 요청]");
+				
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package example6;
+
+public class ThreadA extends Thread {
+	public boolean stop = false;
+	public boolean work = false;
+	
+	public void run() {
+		while(!stop) {
+			if(work) {
+				System.out.println("ThreadA 작업 내");
+			}else {
+				Thread.yield();	
+			}
+		}
+	
+		System.out.println("ThreadA 종료");
+	}
+	
+}

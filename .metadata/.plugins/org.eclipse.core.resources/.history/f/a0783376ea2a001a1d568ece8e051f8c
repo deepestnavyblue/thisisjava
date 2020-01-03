@@ -1,0 +1,10 @@
+package example;
+
+public class WorkerThread extends Thread{
+	@Override
+	public void run() {
+
+	}
+	
+	
+}

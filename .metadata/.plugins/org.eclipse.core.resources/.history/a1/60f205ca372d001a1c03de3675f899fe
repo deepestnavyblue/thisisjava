@@ -1,0 +1,10 @@
+package example10_threadstop;
+
+public class InterruptExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

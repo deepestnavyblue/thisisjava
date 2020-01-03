@@ -1,0 +1,10 @@
+package example11_daemonthread;
+
+public class AutoSaveThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

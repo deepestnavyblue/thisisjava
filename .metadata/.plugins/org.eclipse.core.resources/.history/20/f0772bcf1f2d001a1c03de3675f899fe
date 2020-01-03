@@ -1,0 +1,12 @@
+package example;
+
+public class MainThreadExample {
+
+	public static void main(String[] args) {
+
+		Caclculator calculator = new Calculator();
+		
+		
+	}
+
+}

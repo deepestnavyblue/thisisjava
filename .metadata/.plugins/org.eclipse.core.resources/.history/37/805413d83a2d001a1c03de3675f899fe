@@ -1,0 +1,11 @@
+package example11_daemonthread;
+
+public class DaemonExample {
+
+	public static void main(String[] args) {
+		AutoSaveThread autoSaveThread = new AutoSaveThread();
+		autoSaveThread.setDaemon(true);
+		autoSaveThread.start();
+	}
+
+}
